@@ -75,7 +75,7 @@ app.post("/api/chat", async (req, res) => {
 
     // Call the recommended model for basic/conversational text tasks
     const response = await ai.models.generateContent({
-      model: "gemini-3.5-flash",
+      model: "gemini-3.1-flash-lite",
       contents: contents,
       config: {
         systemInstruction: systemPrompt,
