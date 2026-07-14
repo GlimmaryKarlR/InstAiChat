@@ -1,0 +1,6 @@
+{
+  "name": "AIM AI Client",
+  "description": "A fully interactive replica of AOL Instant Messenger (AIM) featuring conversational AI agents as buddies.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
